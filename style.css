@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+#top-banner {
+    background-color: rgb(233, 66, 1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
