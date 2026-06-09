@@ -1,8 +1,8 @@
 body{
     background-color: lightblue;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    margin: 12px;
+    padding: 25px;
 }
 #top-banner {
     background-color: rgb(233, 66, 1);
@@ -10,4 +10,27 @@ body{
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+}
+.imageflottante
+{
+    float: left; /* L'image flotte  */
+    padding: 10px;
+    
+}
+
+.dessous {
+    clear: both; /* Assure que ce texte est situé sous les éléments flottants */
+    padding-top: 10px; /* Ajoute un peu d'espace au-dessus du texte */
+}
+h1 {
+    color: rgb(233, 66, 1);
+}
+body {
+    background-image: url("fleure.png");
+    background-repeat: no-repeat;
+    background-position: 30px 50px;
+    background-position: top left;
+}
+p{
+    opacity: 0.6;
 }
